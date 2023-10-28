@@ -1,0 +1,138 @@
+body{
+    background-color: #071035;
+    overflow-x: hidden;
+}
+
+.borda3{
+    margin-top: -10%;
+    margin-left: 70%;
+    width: 380px;
+    height: 380px;
+    background-color: #2945b8;
+    border-radius: 50% 30px 50% 50%;
+}
+.borda4{
+        margin-top: -50%;
+        margin-left: 83%;
+        width: 380px;
+        height: 380px;
+        background-color: #2945b8;
+        border-radius: 50% 30px 50% 50%;
+}
+.borda{
+    margin-bottom: -20%;
+    margin-left: 85%;
+    width: 400px;
+    height: 400px;
+    background-color: #ecf02e;
+    border-radius: 50% 30px 50% 50%;
+}
+.borda2{
+    margin-bottom:-18%;
+    margin-left: 68%;
+    width: 400px;
+    height: 400px;
+    background-color: #ecf02e;
+    border-radius: 50% 30px 50% 50%;
+}
+
+.iconePy{
+    width: 310px;
+    height: 310px;
+    margin-top: -76px;
+    margin-left: 15%;
+}
+
+.imagemld{
+    margin-top: 180px;
+    animation: floatinganimation 2s infinite;
+}
+
+@keyframes floatinganimation {
+    0%, 100%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(-19px);
+    }
+}
+
+.jogopy{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    background-image: linear-gradient(to bottom right,#2945b8, #1c0fd4);
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+
+.App h1{
+    font-weight: 25px;
+    color: #050414;
+    font-weight: 600;
+    border-bottom: 1px solid #0b023d;
+    padding-bottom: 30PX;
+
+}
+.Quiz{
+    padding: 20px 0;
+}
+
+.Quiz h2{
+    box-sizing: border-box ;
+    box-shadow: #10236e 5px 5px 0px 0;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin: 12 0px;
+    height: 29px;
+    font-size: 18px;
+    color: #1201a5;
+    font-weight: 600;
+    text-align: center;
+}
+
+.botao{
+    background-color: #f0ed2e;
+    color: #000000;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 1px solid #b99700;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: all 0.5s;
+}
+
+.botao:hover{
+    background:#fab114 ;
+    color: #fff;
+    box-shadow: #ff9900 5px 2px 0 0;
+
+}
+
+.next{
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:#1201a5;
+    display: block;
+}
+
+.next:hover{
+    background: #496af1;
+}
+
